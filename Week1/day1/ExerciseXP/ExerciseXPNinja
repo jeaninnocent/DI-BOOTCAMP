@@ -1,0 +1,117 @@
+#Exercise 1
+# === Prédictions des sorties (Outputs) ===
+
+3 <= 3 < 9
+# Résultat : True 
+# Explication : 3 est inférieur ou égal à 3, et 3 est inférieur à 9.
+
+3 == 3 == 3
+# Résultat : True 
+# Explication : 3 est égal à 3, et 3 est égal à 3.
+
+bool(0)
+# Résultat : False 
+
+
+bool(5 == "5")
+# Résultat : False 
+# Explication : Le chiffre 5 (entier) n'est pas égal à "5" (chaîne de caractères).
+
+bool(4 == 4) == bool("4" == "4")
+# Résultat : True 
+# Explication : Les deux côtés de l'égalité valent True, donc True == True.
+
+bool(bool(None))
+# Résultat : False 
+
+
+
+# === Évaluation des variables et impressions ===
+
+x = (1 == True)  # True, car en Python 1 est équivalent à True
+y = (1 == False) # False, car 1 n'est pas équivalent à 0 (False)
+a = True + 4     # 5, car True se comporte comme l'entier 1 dans un calcul
+b = False + 10   # 10, car False se comporte comme l'entier 0 dans un calcul
+
+print("x is", x) 
+# Sortie : x is True
+
+print("y is", y) 
+# Sortie : y is False
+
+print("a:", a)   
+# Sortie : a: 5
+
+print("b:", b)   
+# Sortie : b: 10
+
+##Exercise 2
+longest_length = 0
+
+print("Welcome! Press 'Ctrl+C' or type 'quit' to exit.")
+
+while True:
+    sentence = input("Enter the longest sentence you can without the character 'A': ")
+    
+    if sentence.lower() == 'quit':
+        break
+        
+    # Check if 'a' or 'A' is in the sentence
+    if 'a' in sentence.lower():
+        print("Oops! You used the character 'A'. Try again!\n")
+    else:
+        current_length = len(sentence)
+        if current_length > longest_length:
+            longest_length = current_length
+            print(f"🎉 Congratulations! New record set with {longest_length} characters!\n")
+        else:
+            print(f"Good job avoiding 'A'! But your length ({current_length}) didn't beat the record ({longest_length}).\n")
+
+##Exercise 3
+# Nous stockons notre paragraphe dans une variable
+# J'ai choisi un texte sur l'apprentissage de la programmation !
+paragraphe = "Python est un langage de programmation puissant et facile à apprendre. Il possède des structures de données de haut niveau et une approche simple. L'élégante syntaxe de Python en fait un langage idéal pour les débutants ! N'est-ce pas génial ?"
+
+# 1. Combien de caractères il contient
+# La fonction len() compte absolument tout (lettres, espaces, ponctuation)
+nombre_caracteres = len(paragraphe)
+
+# 2. Combien de phrases il contient
+# Une astuce pour débutants : on compte les signes de ponctuation qui terminent une phrase
+nombre_phrases = paragraphe.count('.') + paragraphe.count('!') + paragraphe.count('?')
+
+# 3. Combien de mots il contient
+# .split() découpe la chaîne de caractères à chaque espace et crée une liste
+mots = paragraphe.split()
+nombre_mots = len(mots)
+
+# 4. Combien de mots uniques il contient
+# Pour être précis, il faut tout mettre en minuscules et enlever la ponctuation
+texte_propre = paragraphe.lower()
+texte_propre = texte_propre.replace('.', '').replace(',', '').replace('!', '').replace('?', '')
+
+mots_propres = texte_propre.split()
+# La fonction set() transforme la liste en un "ensemble", ce qui supprime automatiquement les doublons
+nombre_mots_uniques = len(set(mots_propres))
+
+# Bonus 1 : Combien de caractères hors espace blanc
+# On remplace les espaces par "rien", puis on compte
+texte_sans_espaces = paragraphe.replace(" ", "")
+caracteres_sans_espaces = len(texte_sans_espaces)
+
+# Bonus 2 : Le nombre moyen de mots par phrase
+moyenne_mots = nombre_mots / nombre_phrases
+
+# Bonus 3 : Le nombre de mots non uniques
+mots_non_uniques = nombre_mots - nombre_mots_uniques
+
+# === Affichage du message bien formaté ===
+print("=== 📊 Analyse du paragraphe ===")
+print(f"Caractères totaux       : {nombre_caracteres}")
+print(f"Nombre de phrases       : {nombre_phrases}")
+print(f"Nombre de mots          : {nombre_mots}")
+print(f"Mots uniques            : {nombre_mots_uniques}")
+print("---------------------------------")
+print(f"Caractères sans espaces : {caracteres_sans_espaces}")
+print(f"Moyenne mots/phrase     : {moyenne_mots}")
+print(f"Mots répétés            : {mots_non_uniques}")
