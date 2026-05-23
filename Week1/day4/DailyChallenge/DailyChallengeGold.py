@@ -87,7 +87,7 @@ if __name__ == "__main__":
                 simulation_ended = True
                 break
         
-        if simulation_ended:
+        if simulation_ended:  
             break
             
         if generation % 100_000 == 0:
