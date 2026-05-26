@@ -1,1 +1,1 @@
-[{"Nom":"Alice","Age":25,"Profession":"Ing\u00e9nieur"},{"Nom":"Bob","Age":30,"Profession":"M\u00e9decin"},{"Nom":"Charlie","Age":35,"Profession":"Analyste"}]
+[{"Nom":"Alice","Âge":25,"Langage":"Python"},{"Nom":"Bob","Âge":30,"Langage":"JavaScript"},{"Nom":"Charlie","Âge":35,"Langage":"C++"}]
