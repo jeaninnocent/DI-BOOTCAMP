@@ -1,0 +1,100 @@
+id,first_name,last_name,email,date_of_birth,grade,major,enrollment_year,status
+1,Alice,Smith,alice.smith1@example.edu,2000-01-15,92,Biology,2016,graduated
+2,Benjamin,Lee,benjamin.lee2@example.edu,1999-03-22,88,Computer Science,2016,graduated
+3,Chloe,Johnson,chloe.johnson3@example.edu,2001-05-08,95,Mathematics,2016,graduated
+4,Daniel,Martinez,daniel.martinez4@example.edu,2000-07-19,84,Engineering,2016,graduated
+5,Emma,Brown,emma.brown5@example.edu,2002-09-02,91,Psychology,2016,graduated
+6,Felix,Davis,felix.davis6@example.edu,1998-11-27,87,Economics,2016,graduated
+7,Grace,Wilson,grace.wilson7@example.edu,2001-02-14,90,Literature,2016,graduated
+8,Henry,Taylor,henry.taylor8@example.edu,1999-04-30,83,Physics,2016,graduated
+9,Isla,Anderson,isla.anderson9@example.edu,2002-06-11,89,Chemistry,2016,graduated
+10,Jack,Thomas,jack.thomas10@example.edu,2001-08-23,86,History,2016,graduated
+11,Kara,White,kara.white11@example.edu,2000-10-05,93,Art,2016,graduated
+12,Alice,Smith,alice.smith12@example.edu,2000-01-15,94,Biology,2017,active
+13,Benjamin,Lee,benjamin.lee13@example.edu,1999-03-22,85,Computer Science,2017,active
+14,Chloe,Johnson,chloe.johnson14@example.edu,2001-05-08,96,Mathematics,2017,active
+15,Daniel,Martinez,daniel.martinez15@example.edu,2000-07-19,82,Engineering,2017,active
+16,Emma,Brown,emma.brown16@example.edu,2002-09-02,90,Psychology,2017,active
+17,Felix,Davis,felix.davis17@example.edu,1998-11-27,88,Economics,2017,active
+18,Grace,Wilson,grace.wilson18@example.edu,2001-02-14,91,Literature,2017,active
+19,Henry,Taylor,henry.taylor19@example.edu,1999-04-30,84,Physics,2017,active
+20,Isla,Anderson,isla.anderson20@example.edu,2002-06-11,90,Chemistry,2017,active
+21,Jack,Thomas,jack.thomas21@example.edu,2001-08-23,87,History,2017,active
+22,Kara,White,kara.white22@example.edu,2000-10-05,92,Art,2017,active
+23,Alice,Smith,alice.smith23@example.edu,2000-01-15,91,Biology,2018,active
+24,Benjamin,Lee,benjamin.lee24@example.edu,1999-03-22,89,Computer Science,2018,active
+25,Chloe,Johnson,chloe.johnson25@example.edu,2001-05-08,94,Mathematics,2018,active
+26,Daniel,Martinez,daniel.martinez26@example.edu,2000-07-19,86,Engineering,2018,active
+27,Emma,Brown,emma.brown27@example.edu,2002-09-02,92,Psychology,2018,active
+28,Felix,Davis,felix.davis28@example.edu,1998-11-27,85,Economics,2018,active
+29,Grace,Wilson,grace.wilson29@example.edu,2001-02-14,93,Literature,2018,active
+30,Henry,Taylor,henry.taylor30@example.edu,1999-04-30,82,Physics,2018,active
+31,Isla,Anderson,isla.anderson31@example.edu,2002-06-11,91,Chemistry,2018,active
+32,Jack,Thomas,jack.thomas32@example.edu,2001-08-23,88,History,2018,active
+33,Kara,White,kara.white33@example.edu,2000-10-05,94,Art,2018,active
+34,Alice,Smith,alice.smith34@example.edu,2000-01-15,90,Biology,2019,active
+35,Benjamin,Lee,benjamin.lee35@example.edu,1999-03-22,87,Computer Science,2019,active
+36,Chloe,Johnson,chloe.johnson36@example.edu,2001-05-08,95,Mathematics,2019,active
+37,Daniel,Martinez,daniel.martinez37@example.edu,2000-07-19,84,Engineering,2019,active
+38,Emma,Brown,emma.brown38@example.edu,2002-09-02,93,Psychology,2019,active
+39,Felix,Davis,felix.davis39@example.edu,1998-11-27,86,Economics,2019,active
+40,Grace,Wilson,grace.wilson40@example.edu,2001-02-14,92,Literature,2019,active
+41,Henry,Taylor,henry.taylor41@example.edu,1999-04-30,85,Physics,2019,active
+42,Isla,Anderson,isla.anderson42@example.edu,2002-06-11,90,Chemistry,2019,active
+43,Jack,Thomas,jack.thomas43@example.edu,2001-08-23,89,History,2019,active
+44,Kara,White,kara.white44@example.edu,2000-10-05,91,Art,2019,active
+45,Alice,Smith,alice.smith45@example.edu,2000-01-15,93,Biology,2020,active
+46,Benjamin,Lee,benjamin.lee46@example.edu,1999-03-22,88,Computer Science,2020,active
+47,Chloe,Johnson,chloe.johnson47@example.edu,2001-05-08,94,Mathematics,2020,active
+48,Daniel,Martinez,daniel.martinez48@example.edu,2000-07-19,85,Engineering,2020,active
+49,Emma,Brown,emma.brown49@example.edu,2002-09-02,91,Psychology,2020,active
+50,Felix,Davis,felix.davis50@example.edu,1998-11-27,89,Economics,2020,active
+51,Grace,Wilson,grace.wilson51@example.edu,2001-02-14,92,Literature,2020,active
+52,Henry,Taylor,henry.taylor52@example.edu,1999-04-30,84,Physics,2020,active
+53,Isla,Anderson,isla.anderson53@example.edu,2002-06-11,90,Chemistry,2020,active
+54,Jack,Thomas,jack.thomas54@example.edu,2001-08-23,87,History,2020,active
+55,Kara,White,kara.white55@example.edu,2000-10-05,94,Art,2020,active
+56,Alice,Smith,alice.smith56@example.edu,2000-01-15,92,Biology,2021,active
+57,Benjamin,Lee,benjamin.lee57@example.edu,1999-03-22,90,Computer Science,2021,active
+58,Chloe,Johnson,chloe.johnson58@example.edu,2001-05-08,96,Mathematics,2021,active
+59,Daniel,Martinez,daniel.martinez59@example.edu,2000-07-19,83,Engineering,2021,active
+60,Emma,Brown,emma.brown60@example.edu,2002-09-02,89,Psychology,2021,active
+61,Felix,Davis,felix.davis61@example.edu,1998-11-27,87,Economics,2021,active
+62,Grace,Wilson,grace.wilson62@example.edu,2001-02-14,94,Literature,2021,active
+63,Henry,Taylor,henry.taylor63@example.edu,1999-04-30,86,Physics,2021,active
+64,Isla,Anderson,isla.anderson64@example.edu,2002-06-11,91,Chemistry,2021,active
+65,Jack,Thomas,jack.thomas65@example.edu,2001-08-23,88,History,2021,active
+66,Kara,White,kara.white66@example.edu,2000-10-05,93,Art,2021,active
+67,Alice,Smith,alice.smith67@example.edu,2000-01-15,95,Biology,2022,active
+68,Benjamin,Lee,benjamin.lee68@example.edu,1999-03-22,89,Computer Science,2022,active
+69,Chloe,Johnson,chloe.johnson69@example.edu,2001-05-08,97,Mathematics,2022,active
+70,Daniel,Martinez,daniel.martinez70@example.edu,2000-07-19,84,Engineering,2022,active
+71,Emma,Brown,emma.brown71@example.edu,2002-09-02,92,Psychology,2022,active
+72,Felix,Davis,felix.davis72@example.edu,1998-11-27,90,Economics,2022,active
+73,Grace,Wilson,grace.wilson73@example.edu,2001-02-14,93,Literature,2022,active
+74,Henry,Taylor,henry.taylor74@example.edu,1999-04-30,85,Physics,2022,active
+75,Isla,Anderson,isla.anderson75@example.edu,2002-06-11,90,Chemistry,2022,active
+76,Jack,Thomas,jack.thomas76@example.edu,2001-08-23,88,History,2022,active
+77,Kara,White,kara.white77@example.edu,2000-10-05,94,Art,2022,active
+78,Alice,Smith,alice.smith78@example.edu,2000-01-15,91,Biology,2023,active
+79,Benjamin,Lee,benjamin.lee79@example.edu,1999-03-22,87,Computer Science,2023,active
+80,Chloe,Johnson,chloe.johnson80@example.edu,2001-05-08,95,Mathematics,2023,active
+81,Daniel,Martinez,daniel.martinez81@example.edu,2000-07-19,86,Engineering,2023,active
+82,Emma,Brown,emma.brown82@example.edu,2002-09-02,93,Psychology,2023,active
+83,Felix,Davis,felix.davis83@example.edu,1998-11-27,88,Economics,2023,active
+84,Grace,Wilson,grace.wilson84@example.edu,2001-02-14,92,Literature,2023,active
+85,Henry,Taylor,henry.taylor85@example.edu,1999-04-30,84,Physics,2023,active
+86,Isla,Anderson,isla.anderson86@example.edu,2002-06-11,90,Chemistry,2023,active
+87,Jack,Thomas,jack.thomas87@example.edu,2001-08-23,89,History,2023,active
+88,Kara,White,kara.white88@example.edu,2000-10-05,91,Art,2023,active
+89,Alice,Smith,alice.smith89@example.edu,2000-01-15,92,Biology,2024,active
+90,Benjamin,Lee,benjamin.lee90@example.edu,1999-03-22,88,Computer Science,2024,active
+91,Chloe,Johnson,chloe.johnson91@example.edu,2001-05-08,96,Mathematics,2024,active
+92,Daniel,Martinez,daniel.martinez92@example.edu,2000-07-19,85,Engineering,2024,active
+93,Emma,Brown,emma.brown93@example.edu,2002-09-02,91,Psychology,2024,active
+94,Felix,Davis,felix.davis94@example.edu,1998-11-27,89,Economics,2024,active
+95,Grace,Wilson,grace.wilson95@example.edu,2001-02-14,93,Literature,2024,active
+96,Henry,Taylor,henry.taylor96@example.edu,1999-04-30,86,Physics,2024,active
+97,Isla,Anderson,isla.anderson97@example.edu,2002-06-11,90,Chemistry,2024,active
+98,Jack,Thomas,jack.thomas98@example.edu,2001-08-23,87,History,2024,active
+99,Kara,White,kara.white99@example.edu,2000-10-05,94,Art,2024,active

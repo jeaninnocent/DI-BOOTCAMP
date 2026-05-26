@@ -1,0 +1,6 @@
+Exercice 5 : Compétences d’observation (Dataset Sommeil)
+Si nous explorons le jeu de données "Combien de sommeil les Américains ont-ils vraiment ?" :
+
+Analyse de tendance : Les colonnes Age et Hours_of_Sleep. Cela permettrait de vérifier l'hypothèse selon laquelle le temps de sommeil diminue avec l'âge (création d'un nuage de points).
+
+Comparaison de groupes : Les colonnes Occupation (Profession) et Sleep_Quality_Score. Cela permet de regrouper les données pour voir quels secteurs d'activité déclarent la meilleure ou la pire qualité de sommeil (création d'un diagramme à barres avec les moyennes par profession).

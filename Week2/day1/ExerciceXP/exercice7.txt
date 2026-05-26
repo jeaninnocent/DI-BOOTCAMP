@@ -1,0 +1,8 @@
+Exercice 7 : Exercice de transformation
+Articles de blog : Utiliser le Traitement du Langage Naturel (NLP). On peut extraire des entités (lieux visités, dates) et analyser les sentiments (positif/négatif) pour créer un tableau structuré avec les colonnes : Titre_Article, Lieux_Mentionnés, Score_Sentiment.
+
+Enregistrements audio : Utiliser un algorithme de Speech-to-Text (reconnaissance vocale) pour transformer l'audio en texte. Ensuite, appliquer le NLP pour extraire la cause de l'appel et stocker le résultat dans une base de données structurée (ex: ID_Appel, Durée, Motif, Résolu (Oui/Non)).
+
+Notes manuscrites : Utiliser la Reconnaissance Optique de Caractères (OCR) pour scanner et numériser l'écriture en texte tapé, puis structurer les idées par puces ou balises dans un fichier CSV.
+
+Tutoriel vidéo : Analyser la vidéo avec un modèle de Vision par Ordinateur pour identifier les ingrédients à l'écran, et utiliser l'audio pour générer une transcription. Le résultat structuré serait un tableau de recette : Étape_Numéro, Action, Ingrédient_Utilisé.
